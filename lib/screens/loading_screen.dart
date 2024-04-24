@@ -31,7 +31,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     WeatherData weatherData = WeatherData(locationData: locationData);
     await weatherData.getCurrentTemperature();
-
+//selam
     if (weatherData.currentTemperature == null ||
         weatherData.currentCondition == null) {
       print("API den sicaklik veya durum bilgisi boş dönüyor");
